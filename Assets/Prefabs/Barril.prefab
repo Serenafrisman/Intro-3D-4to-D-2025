@@ -26,6 +26,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9b9edac7010f546a5f4cad14be5add, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreManager: {fileID: 0}
+  mercaderiaScript: {fileID: 0}
+--- !u!114 &4224940441330814132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433986245878732535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024cd58b301d1284bb0c892b7626fb82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorePoints: 5
 --- !u!1 &6807069109063616581
 GameObject:
   m_ObjectHideFlags: 0
