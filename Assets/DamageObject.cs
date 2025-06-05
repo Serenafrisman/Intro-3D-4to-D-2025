@@ -1,0 +1,24 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DamageObject : MonoBehaviour
+{
+    public HealthManager healthManager;
+
+    void Start()
+    {
+        healthManager = FindObjectOfType<HealthManager>();
+    }
+    void OnCollisionEnter(Collision col)
+        {
+
+            if (col.gameObject.name == "Player")
+            {
+            healthManager.TakeDamage(damagePoints);
+                Destroy(gameObject);
+            }
+
+        }
+    }
+
