@@ -5,6 +5,7 @@ using UnityEngine;
 public class DamageObject : MonoBehaviour
 {
     public HealthManager healthManager;
+    public int damagePoints;
 
     void Start()
     {

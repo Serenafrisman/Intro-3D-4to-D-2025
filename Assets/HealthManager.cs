@@ -28,7 +28,7 @@ public class HealthManager : MonoBehaviour
     public void UpdateHealthPoints(int healthPoints)
     {
         healthPoints--;
-        uiManager.UpdateScore(healthPoints);
+        uiManager.UpdateHealth(healthPoints);
 
     }
     
