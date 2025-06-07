@@ -1,28 +1,15 @@
 fileFormatVersion: 2
-guid: 4c26a82061ac430429cf9e31922fde34
+guid: 35c192cc86c997644ba73b6e5017950d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Camera
-    100002: Cube
-    100004: Light
-    100006: //RootNode
-    400000: Camera
-    400002: Cube
-    400004: Light
-    400006: //RootNode
-    2000000: Camera
+    100000: //RootNode
+    400000: //RootNode
     2100000: Rust
-    2300000: Cube
-    3300000: Cube
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Cube
-    10800000: Light
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Rust
-    second: {fileID: 2100000, guid: 466eac1797f6c514c8521a9d5d4a4b01, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
